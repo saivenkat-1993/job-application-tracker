@@ -13,4 +13,9 @@
     <PackageReference Include="Swashbuckle.aspnetcore" Version="10.2.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\jobtracker.domain\jobtracker.domain.csproj" />
+    <ProjectReference Include="..\jobtracker.infrastructure\jobtracker.infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
